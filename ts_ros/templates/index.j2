@@ -7,5 +7,5 @@ export * from './{{ msgspec.base_type.pkg_name }}/{{ msgspec.reldir }}/{{ msgspe
 
 // services
 {% for srvspec in srvspecs %}
-export * from './{{ srvspec.pkg_name }}/{{ srvspec.reldir }}/{{ srvspec.srv_name }}.srv';
+export * from './{{ srvspec.pkg_name }}/{{ srvspec.reldir }}/{{ srvspec.srv_name }}';
 {% endfor %}
